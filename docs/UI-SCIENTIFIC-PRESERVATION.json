@@ -1,0 +1,30 @@
+{
+  "baseline_release": "1.0.0",
+  "ui_release": "2.0.0",
+  "protected_files_unchanged": {
+    "src/engine/types.ts": "57504aa4ac3a0dff30b4dc928517c0ad419b2d0f163f7f03ec6aced662be01e2",
+    "src/engine/index.ts": "b599ea2adfca314d98ac604ce3b43736d30fd05d0e7fd378edb89dc8eb9034d6",
+    "src/engine/chemistry.ts": "c364e39aa3ec2567f68f48c48f4ec7576e92a4aceff2f52c8460488aa58224e5",
+    "src/engine/format.ts": "19dae27ba5e405ba4473b731f30479a4e627382369289fbef3a8ca1ea9a9ac80",
+    "src/engine/integrated.ts": "db28fb78a2b4ec1e7b9be43f805191012ac94fe54d8b6eaefc8422ff2fefef97",
+    "src/engine/recovery.ts": "328c25ee84a7c9e0d06f9e223863478e17cf42e14354e4aab6440b2c9785e382",
+    "src/engine/acids.ts": "1ca95352274e805a0251199ee0bd8388714c81e07a7857f078a6c3e330a6d00a",
+    "src/engine/hydrogenation.ts": "90f57ae4ea17287e27a318c9a3e9036d5cf89d5ffcf62927add0e4adf5230742",
+    "src/engine/nitration.ts": "de308d7789ef88c86f3006117bbec5b02ad99457470714e70fa3c56c4b41257d",
+    "src/data/calculators.ts": "1f73621cf2c00e9f10ea9e903dbc8487c4c588a617dedc5dd10e3dcc344f1d5c",
+    "src/components/exports.ts": "96fd21ee116a187fe9a83c7d8c85cee64b3f98978511f96680283035dd61e0c3",
+    "src/components/Report.tsx": "5e198365800af7814071cf44cff552c58909384fe392670ad70cd7db98e977d7",
+    "tests/science.test.ts": "44fd0bc990ae5bb96e4069ec6964b2cf430fce5b4ca62831313d5681d8982da4",
+    "tests/browser/lab.spec.ts": "febc0961f81e298a037bc7f9426f39a31c6b2ae63421a1d4528f8c47a164872f",
+    "vite.config.ts": "cf35d15e2e2c6ff1087537b0ee5690fbfb2890dbf6e4b344c1812cf65f7366d9",
+    "playwright.config.ts": "9f80fac7e1fdbbeeb40eeabb2ae25476fd94b4da3080114162759543f5347814",
+    ".github/workflows/pages.yml": "120379a72c57fa0c754369145d5b286bb67dbb44f8aae63633070e29a09422c2"
+  },
+  "shared_calculation_fragments_unchanged": {
+    "Sensitivity calculation and chart data": "2cf61699583045ffc5d1528945de50ed47716306a7df92e1a11b7b397bbc07ba",
+    "Calculator input state, conversion, validation, calculation and export callbacks": "56d804181d35f0af3d89bf470982083b970893e8d900ec54327fbbe9161c81c1",
+    "Product comparison data mapping": "4592f0e10ec10f0c87cb7148ac115e481c69f550ecb319e4eda1dd8cbb4881e4"
+  },
+  "reference_cases": 1170,
+  "baseline_fixture_sha256": "6ba5d20c69810ce59ab3867bac46d0fa7f6d04fc506ebbd58e9ef9e510bd2e3c"
+}

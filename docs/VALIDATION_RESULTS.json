@@ -1,0 +1,1289 @@
+{
+  "version": "1.0.0",
+  "reviewed_date": "2026-10-16",
+  "environment": {
+    "node": "24.19.0",
+    "chromium": "153.0.8010.0",
+    "desktop_viewport": "1440x1000",
+    "mobile_viewport": "390x844",
+    "mobile_method": "Pixel 7 device emulation, not physical hardware"
+  },
+  "scientific": {
+    "passed": 156,
+    "failed": 0,
+    "cases": [
+      {
+        "name": "01 · Benzene nitration stoichiometry 1 kmol B + 2 kmol HNO₃ produces 123.111 kg NB and 18.015 kg water",
+        "status": "passed"
+      },
+      {
+        "name": "01 · Benzene nitration stoichiometry zero conversion retains both reactants",
+        "status": "passed"
+      },
+      {
+        "name": "01 · Benzene nitration stoichiometry rejects requested conversion above the nitric-acid limit",
+        "status": "passed"
+      },
+      {
+        "name": "01 · Benzene nitration stoichiometry 50 wt% feed retains the inert half of the mass",
+        "status": "passed"
+      },
+      {
+        "name": "01 · Benzene nitration stoichiometry gross kg and g feeds give the same result",
+        "status": "passed"
+      },
+      {
+        "name": "02 · Limiting reactant 1:1.25 feeds give 25% HNO₃ excess",
+        "status": "passed"
+      },
+      {
+        "name": "02 · Limiting reactant zero limiting feed makes excess percentage undefined",
+        "status": "passed"
+      },
+      {
+        "name": "02 · Limiting reactant rejects purity greater than 100%",
+        "status": "passed"
+      },
+      {
+        "name": "02 · Limiting reactant fractional mole feeds give an independently calculated 60% excess",
+        "status": "passed"
+      },
+      {
+        "name": "02 · Limiting reactant kg and mol feeds preserve the limiting species and product",
+        "status": "passed"
+      },
+      {
+        "name": "03 · Benzene conversion 1 kmol inlet and 0.25 kmol outlet give 75% conversion",
+        "status": "passed"
+      },
+      {
+        "name": "03 · Benzene conversion zero inlet has no defined conversion",
+        "status": "passed"
+      },
+      {
+        "name": "03 · Benzene conversion rejects outlet exceeding inlet",
+        "status": "passed"
+      },
+      {
+        "name": "03 · Benzene conversion 1.25 to 0.875 kmol gives 30% conversion",
+        "status": "passed"
+      },
+      {
+        "name": "03 · Benzene conversion independent inlet and outlet unit conversions agree",
+        "status": "passed"
+      },
+      {
+        "name": "04 · Nitrobenzene theoretical yield one kmol benzene gives one kmol theoretical nitrobenzene",
+        "status": "passed"
+      },
+      {
+        "name": "04 · Nitrobenzene theoretical yield zero feed gives zero product",
+        "status": "passed"
+      },
+      {
+        "name": "04 · Nitrobenzene theoretical yield rejects negative purity",
+        "status": "passed"
+      },
+      {
+        "name": "04 · Nitrobenzene theoretical yield 8 kg pure B in a 10 kg sample gives the correct fractional yield",
+        "status": "passed"
+      },
+      {
+        "name": "04 · Nitrobenzene theoretical yield tonnes and kg are equivalent",
+        "status": "passed"
+      },
+      {
+        "name": "05 · Nitrobenzene actual yield 80 kg at 75% purity is 60 kg product against a 100 kg theory",
+        "status": "passed"
+      },
+      {
+        "name": "05 · Nitrobenzene actual yield zero isolated product gives zero yield",
+        "status": "passed"
+      },
+      {
+        "name": "05 · Nitrobenzene actual yield rejects a pure yield above 100%",
+        "status": "passed"
+      },
+      {
+        "name": "05 · Nitrobenzene actual yield decimal amounts retain the purity correction",
+        "status": "passed"
+      },
+      {
+        "name": "05 · Nitrobenzene actual yield product units may be independently changed",
+        "status": "passed"
+      },
+      {
+        "name": "06 · Nitric acid requirement one kmol B with 20% excess needs 126.024 kg of 60 wt% acid",
+        "status": "passed"
+      },
+      {
+        "name": "06 · Nitric acid requirement zero conversion has no acid requirement",
+        "status": "passed"
+      },
+      {
+        "name": "06 · Nitric acid requirement rejects zero commercial concentration",
+        "status": "passed"
+      },
+      {
+        "name": "06 · Nitric acid requirement fractional converted feed and 10% excess give 27.72528 kg solution",
+        "status": "passed"
+      },
+      {
+        "name": "06 · Nitric acid requirement kg and kmol benzene inputs agree",
+        "status": "passed"
+      },
+      {
+        "name": "07 · Mixed acid composition reconstructs the 60/32/8 lecture mass composition",
+        "status": "passed"
+      },
+      {
+        "name": "07 · Mixed acid composition rejects an empty mixture denominator",
+        "status": "passed"
+      },
+      {
+        "name": "07 · Mixed acid composition rejects concentration above 100%",
+        "status": "passed"
+      },
+      {
+        "name": "07 · Mixed acid composition decimal solution masses conserve 45 kg and 6.5 kg water",
+        "status": "passed"
+      },
+      {
+        "name": "07 · Mixed acid composition each solution mass can use g independently",
+        "status": "passed"
+      },
+      {
+        "name": "08 · Acid-to-benzene ratio uses full mixture mass but only selected HNO₃ molecules",
+        "status": "passed"
+      },
+      {
+        "name": "08 · Acid-to-benzene ratio zero acid gives zero ratios",
+        "status": "passed"
+      },
+      {
+        "name": "08 · Acid-to-benzene ratio rejects component fractions totaling more than 100%",
+        "status": "passed"
+      },
+      {
+        "name": "08 · Acid-to-benzene ratio sulfuric-only molar denominator is correctly defined",
+        "status": "passed"
+      },
+      {
+        "name": "08 · Acid-to-benzene ratio mixture mass and feed quantity support distinct unit conversions",
+        "status": "passed"
+      },
+      {
+        "name": "09 · Water formation & accumulation one kmol nitration adds 18.015 kg water to 10 kg inlet water",
+        "status": "passed"
+      },
+      {
+        "name": "09 · Water formation & accumulation zero conversion leaves only the initial water",
+        "status": "passed"
+      },
+      {
+        "name": "09 · Water formation & accumulation rejects water production demanding unavailable nitric acid",
+        "status": "passed"
+      },
+      {
+        "name": "09 · Water formation & accumulation 0.125 kmol extent gives 2.251875 kg new water",
+        "status": "passed"
+      },
+      {
+        "name": "09 · Water formation & accumulation mixed mass and mole unit bases agree",
+        "status": "passed"
+      },
+      {
+        "name": "10 · Spent acid composition 1.5 kmol acid minus 1 kmol reacted retains 31.506 kg HNO₃",
+        "status": "passed"
+      },
+      {
+        "name": "10 · Spent acid composition zero conversion conserves all acid feed",
+        "status": "passed"
+      },
+      {
+        "name": "10 · Spent acid composition rejects a nonphysical acid concentration",
+        "status": "passed"
+      },
+      {
+        "name": "10 · Spent acid composition fractional extent changes acid and water by different molar masses",
+        "status": "passed"
+      },
+      {
+        "name": "10 · Spent acid composition tonne solution masses retain composition",
+        "status": "passed"
+      },
+      {
+        "name": "11 · Dehydration value distinguishes conventional and literal lecture water denominators",
+        "status": "passed"
+      },
+      {
+        "name": "11 · Dehydration value zero reaction and initial water produces undefined ratios",
+        "status": "passed"
+      },
+      {
+        "name": "11 · Dehydration value rejects negative initial water",
+        "status": "passed"
+      },
+      {
+        "name": "11 · Dehydration value decimal molar acid consumption gives the independently calculated water",
+        "status": "passed"
+      },
+      {
+        "name": "11 · Dehydration value molar and mass consumed-HNO₃ inputs agree and can select the literal convention",
+        "status": "passed"
+      },
+      {
+        "name": "12 · Nitrobenzene recovery 80 kg recovered from 100 kg closes at 80%",
+        "status": "passed"
+      },
+      {
+        "name": "12 · Nitrobenzene recovery zero recovered product means 100% recovery loss",
+        "status": "passed"
+      },
+      {
+        "name": "12 · Nitrobenzene recovery rejects recovered mass above available mass",
+        "status": "passed"
+      },
+      {
+        "name": "12 · Nitrobenzene recovery 12.5 kg input and 10.25 kg recovery give 82%",
+        "status": "passed"
+      },
+      {
+        "name": "12 · Nitrobenzene recovery recovered and available amounts support independent units",
+        "status": "passed"
+      },
+      {
+        "name": "13 · Liquid separation splitter specified component splits give 102.2 kg organic and 79.8 kg aqueous",
+        "status": "passed"
+      },
+      {
+        "name": "13 · Liquid separation splitter all zero organic splits send every component to aqueous",
+        "status": "passed"
+      },
+      {
+        "name": "13 · Liquid separation splitter rejects a split over 100%",
+        "status": "passed"
+      },
+      {
+        "name": "13 · Liquid separation splitter decimal component splits retain independent closure",
+        "status": "passed"
+      },
+      {
+        "name": "13 · Liquid separation splitter all component masses can be supplied in grams",
+        "status": "passed"
+      },
+      {
+        "name": "14 · Repeated washing loss two 10% losses after 80% separation recover 64.8 kg of 100 kg",
+        "status": "passed"
+      },
+      {
+        "name": "14 · Repeated washing loss zero stages retain the complete pre-wash product",
+        "status": "passed"
+      },
+      {
+        "name": "14 · Repeated washing loss rejects fractional stages",
+        "status": "passed"
+      },
+      {
+        "name": "14 · Repeated washing loss small decimal fractional losses multiply rather than add",
+        "status": "passed"
+      },
+      {
+        "name": "14 · Repeated washing loss kg and kmol product quantities are equivalent",
+        "status": "passed"
+      },
+      {
+        "name": "15 · Nitrobenzene hydrogenation one kmol NB consumes 3 kmol H₂ and produces 93.129 kg aniline",
+        "status": "passed"
+      },
+      {
+        "name": "15 · Nitrobenzene hydrogenation zero conversion keeps hydrogen and nitrobenzene unreacted",
+        "status": "passed"
+      },
+      {
+        "name": "15 · Nitrobenzene hydrogenation rejects H₂ short of the 3:1 requirement",
+        "status": "passed"
+      },
+      {
+        "name": "15 · Nitrobenzene hydrogenation fractional kmol conversion gives 18.6258 kg aniline",
+        "status": "passed"
+      },
+      {
+        "name": "15 · Nitrobenzene hydrogenation independent hydrogen and NB quantity units give identical results",
+        "status": "passed"
+      },
+      {
+        "name": "16 · Hydrogen requirement one kmol aniline with 20% H₂ excess requires a 3.6 kmol feed",
+        "status": "passed"
+      },
+      {
+        "name": "16 · Hydrogen requirement zero aniline target gives zero H₂ demand",
+        "status": "passed"
+      },
+      {
+        "name": "16 · Hydrogen requirement rejects a negative excess",
+        "status": "passed"
+      },
+      {
+        "name": "16 · Hydrogen requirement 0.125 kmol target needs 0.756 kg stoichiometric hydrogen",
+        "status": "passed"
+      },
+      {
+        "name": "16 · Hydrogen requirement target kg and mol are equivalent",
+        "status": "passed"
+      },
+      {
+        "name": "17 · Reduction conversion and selectivity 80% conversion with 75% selectivity gives 0.6 kmol AN and 0.2 kmol CHA",
+        "status": "passed"
+      },
+      {
+        "name": "17 · Reduction conversion and selectivity equal inlet and outlet gives zero conversion",
+        "status": "passed"
+      },
+      {
+        "name": "17 · Reduction conversion and selectivity rejects outlet above inlet",
+        "status": "passed"
+      },
+      {
+        "name": "17 · Reduction conversion and selectivity decimal two-branch products conserve mass and require 1.575 kmol H₂",
+        "status": "passed"
+      },
+      {
+        "name": "17 · Reduction conversion and selectivity pure mass and molar inlet/outlet units are equivalent",
+        "status": "passed"
+      },
+      {
+        "name": "18 · Aniline yield 46.5645 kg isolated AN from one kmol NB is a 50% yield",
+        "status": "passed"
+      },
+      {
+        "name": "18 · Aniline yield zero isolated aniline gives zero yield",
+        "status": "passed"
+      },
+      {
+        "name": "18 · Aniline yield rejects aniline above the stoichiometric maximum",
+        "status": "passed"
+      },
+      {
+        "name": "18 · Aniline yield purity-corrected decimal sample gives 18 kg actual aniline",
+        "status": "passed"
+      },
+      {
+        "name": "18 · Aniline yield grams and tonnes preserve the isolated yield",
+        "status": "passed"
+      },
+      {
+        "name": "19 · Hydrogen recycle with inerts fresh H₂ replaces 3 kmol consumption plus 0.3 kmol purge",
+        "status": "passed"
+      },
+      {
+        "name": "19 · Hydrogen recycle with inerts pure fresh H₂ allows zero purge and zero selected inert inventory",
+        "status": "passed"
+      },
+      {
+        "name": "19 · Hydrogen recycle with inerts no purge with fresh N₂ has no finite steady state",
+        "status": "passed"
+      },
+      {
+        "name": "19 · Hydrogen recycle with inerts separator recovery and purge are separate outlet losses",
+        "status": "passed"
+      },
+      {
+        "name": "19 · Hydrogen recycle with inerts NB molar and mass feeds preserve H₂ component flows",
+        "status": "passed"
+      },
+      {
+        "name": "20 · Integrated process one kmol benzene yields 93.129 kg AN plus 54.045 kg water at full recovery",
+        "status": "passed"
+      },
+      {
+        "name": "20 · Integrated process zero NB recovery sends all intermediate product to its loss stream",
+        "status": "passed"
+      },
+      {
+        "name": "20 · Integrated process rejects infeasible hydrogen supply rather than creating product",
+        "status": "passed"
+      },
+      {
+        "name": "20 · Integrated process fractional conversion, both recoveries and selectivity yield 8% on inlet B",
+        "status": "passed"
+      },
+      {
+        "name": "20 · Integrated process all three feed units can change without double-counting intermediate NB",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 01 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 02 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 03 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 04 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 05 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 06 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 07 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 08 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 09 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 10 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 11 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 12 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 13 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 14 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 15 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 16 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 17 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 18 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 19 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "All calculator contracts 20 default example exposes every requested metric and a full solution",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities nitration conserves every atom and therefore mass",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities hydrogenation conserves every atom and therefore mass",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities overhydrogenation conserves every atom and therefore mass",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities round trips g through kmol without loss of quantity",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities round trips kg through kmol without loss of quantity",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities round trips t through kmol without loss of quantity",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities round trips mol through kmol without loss of quantity",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities round trips kmol through kmol without loss of quantity",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities rejects unsupported quantity units",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities rejects NaN before scientific arithmetic",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities rejects Infinity before scientific arithmetic",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 1",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 2",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 3",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 4",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 5",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 6",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 7",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 8",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 9",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 10",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 11",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 12",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 13",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 14",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 15",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 16",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 17",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 18",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 19",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 20",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 21",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 22",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 23",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 24",
+        "status": "passed"
+      },
+      {
+        "name": "Stoichiometric conservation and unit utilities integrated conservation across losses and two product branches, sample 25",
+        "status": "passed"
+      }
+    ]
+  },
+  "browser": {
+    "passed": 104,
+    "failed": 0,
+    "flaky": 0,
+    "skipped": 0,
+    "cases": [
+      {
+        "name": "en · calculator 01 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 1002
+      },
+      {
+        "name": "en · calculator 02 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 985
+      },
+      {
+        "name": "en · calculator 03 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 827
+      },
+      {
+        "name": "en · calculator 04 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 825
+      },
+      {
+        "name": "en · calculator 05 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 954
+      },
+      {
+        "name": "en · calculator 06 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 908
+      },
+      {
+        "name": "en · calculator 07 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 899
+      },
+      {
+        "name": "en · calculator 08 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 849
+      },
+      {
+        "name": "en · calculator 09 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 922
+      },
+      {
+        "name": "en · calculator 10 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 924
+      },
+      {
+        "name": "en · calculator 11 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 900
+      },
+      {
+        "name": "en · calculator 12 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 809
+      },
+      {
+        "name": "en · calculator 13 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 820
+      },
+      {
+        "name": "en · calculator 14 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 858
+      },
+      {
+        "name": "en · calculator 15 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 824
+      },
+      {
+        "name": "en · calculator 16 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 841
+      },
+      {
+        "name": "en · calculator 17 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 895
+      },
+      {
+        "name": "en · calculator 18 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 951
+      },
+      {
+        "name": "en · calculator 19 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 866
+      },
+      {
+        "name": "en · calculator 20 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 920
+      },
+      {
+        "name": "en · CSV exports include inputs, numeric outputs, assumptions and references",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 729
+      },
+      {
+        "name": "en · chart PNG is a real downloadable image",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 817
+      },
+      {
+        "name": "ar · calculator 01 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 764
+      },
+      {
+        "name": "ar · calculator 02 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 828
+      },
+      {
+        "name": "ar · calculator 03 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 831
+      },
+      {
+        "name": "ar · calculator 04 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 851
+      },
+      {
+        "name": "ar · calculator 05 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 841
+      },
+      {
+        "name": "ar · calculator 06 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 820
+      },
+      {
+        "name": "ar · calculator 07 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 835
+      },
+      {
+        "name": "ar · calculator 08 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 831
+      },
+      {
+        "name": "ar · calculator 09 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 843
+      },
+      {
+        "name": "ar · calculator 10 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 853
+      },
+      {
+        "name": "ar · calculator 11 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 835
+      },
+      {
+        "name": "ar · calculator 12 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 778
+      },
+      {
+        "name": "ar · calculator 13 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 864
+      },
+      {
+        "name": "ar · calculator 14 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 848
+      },
+      {
+        "name": "ar · calculator 15 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 837
+      },
+      {
+        "name": "ar · calculator 16 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 847
+      },
+      {
+        "name": "ar · calculator 17 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 844
+      },
+      {
+        "name": "ar · calculator 18 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 887
+      },
+      {
+        "name": "ar · calculator 19 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 889
+      },
+      {
+        "name": "ar · calculator 20 loads, calculates, plots and fits",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 1004
+      },
+      {
+        "name": "ar · CSV exports include inputs, numeric outputs, assumptions and references",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 751
+      },
+      {
+        "name": "ar · chart PNG is a real downloadable image",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 822
+      },
+      {
+        "name": "Arabic PDF exports the full integrated report with embedded rendered text",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 6474
+      },
+      {
+        "name": "language selection persists and applies RTL / LTR",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 1001
+      },
+      {
+        "name": "all 20 cards, group filters and search work on the library",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 487
+      },
+      {
+        "name": "invalid input, stale export guard, reset and load-example all work",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 1188
+      },
+      {
+        "name": "changing units preserves quantity even with a mass-purity correction",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 1159
+      },
+      {
+        "name": "scenario slider uses real calculations and hourly basis updates units",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 774
+      },
+      {
+        "name": "copy-results writes the calculation report to the clipboard",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 833
+      },
+      {
+        "name": "production assets load under the repository subpath with no 404s",
+        "project": "desktop",
+        "status": "passed",
+        "duration_ms": 496
+      },
+      {
+        "name": "en · calculator 01 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 953
+      },
+      {
+        "name": "en · calculator 02 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 1003
+      },
+      {
+        "name": "en · calculator 03 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 845
+      },
+      {
+        "name": "en · calculator 04 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 894
+      },
+      {
+        "name": "en · calculator 05 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 852
+      },
+      {
+        "name": "en · calculator 06 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 887
+      },
+      {
+        "name": "en · calculator 07 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 799
+      },
+      {
+        "name": "en · calculator 08 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 817
+      },
+      {
+        "name": "en · calculator 09 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 850
+      },
+      {
+        "name": "en · calculator 10 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 904
+      },
+      {
+        "name": "en · calculator 11 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 857
+      },
+      {
+        "name": "en · calculator 12 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 795
+      },
+      {
+        "name": "en · calculator 13 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 772
+      },
+      {
+        "name": "en · calculator 14 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 821
+      },
+      {
+        "name": "en · calculator 15 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 872
+      },
+      {
+        "name": "en · calculator 16 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 811
+      },
+      {
+        "name": "en · calculator 17 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 812
+      },
+      {
+        "name": "en · calculator 18 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 893
+      },
+      {
+        "name": "en · calculator 19 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 838
+      },
+      {
+        "name": "en · calculator 20 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 883
+      },
+      {
+        "name": "en · CSV exports include inputs, numeric outputs, assumptions and references",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 700
+      },
+      {
+        "name": "en · chart PNG is a real downloadable image",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 759
+      },
+      {
+        "name": "ar · calculator 01 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 739
+      },
+      {
+        "name": "ar · calculator 02 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 822
+      },
+      {
+        "name": "ar · calculator 03 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 785
+      },
+      {
+        "name": "ar · calculator 04 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 738
+      },
+      {
+        "name": "ar · calculator 05 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 771
+      },
+      {
+        "name": "ar · calculator 06 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 841
+      },
+      {
+        "name": "ar · calculator 07 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 811
+      },
+      {
+        "name": "ar · calculator 08 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 806
+      },
+      {
+        "name": "ar · calculator 09 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 849
+      },
+      {
+        "name": "ar · calculator 10 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 844
+      },
+      {
+        "name": "ar · calculator 11 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 830
+      },
+      {
+        "name": "ar · calculator 12 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 763
+      },
+      {
+        "name": "ar · calculator 13 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 861
+      },
+      {
+        "name": "ar · calculator 14 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 843
+      },
+      {
+        "name": "ar · calculator 15 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 810
+      },
+      {
+        "name": "ar · calculator 16 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 787
+      },
+      {
+        "name": "ar · calculator 17 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 836
+      },
+      {
+        "name": "ar · calculator 18 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 845
+      },
+      {
+        "name": "ar · calculator 19 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 927
+      },
+      {
+        "name": "ar · calculator 20 loads, calculates, plots and fits",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 929
+      },
+      {
+        "name": "ar · CSV exports include inputs, numeric outputs, assumptions and references",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 775
+      },
+      {
+        "name": "ar · chart PNG is a real downloadable image",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 830
+      },
+      {
+        "name": "Arabic PDF exports the full integrated report with embedded rendered text",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 6300
+      },
+      {
+        "name": "language selection persists and applies RTL / LTR",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 1102
+      },
+      {
+        "name": "all 20 cards, group filters and search work on the library",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 521
+      },
+      {
+        "name": "invalid input, stale export guard, reset and load-example all work",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 1207
+      },
+      {
+        "name": "changing units preserves quantity even with a mass-purity correction",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 1011
+      },
+      {
+        "name": "scenario slider uses real calculations and hourly basis updates units",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 774
+      },
+      {
+        "name": "copy-results writes the calculation report to the clipboard",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 735
+      },
+      {
+        "name": "production assets load under the repository subpath with no 404s",
+        "project": "mobile",
+        "status": "passed",
+        "duration_ms": 425
+      }
+    ]
+  },
+  "production_build": "passed",
+  "typecheck": "passed",
+  "visual_review": [
+    "Desktop English home/calculator/chart",
+    "Mobile Arabic home/calculator/results",
+    "Six-page Arabic integrated PDF, including first/middle/final pages"
+  ],
+  "publication": "No remote deployment performed",
+  "archive_verification": {
+    "clean_npm_ci": "passed",
+    "scientific_rerun": "156 passed",
+    "clean_production_build": "passed",
+    "production_assets_byte_identical": true,
+    "zip_crc": "passed",
+    "node_modules_excluded": true
+  }
+}
